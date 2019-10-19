@@ -1,8 +1,9 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
+const token = process.env.token
 
 client.on('Pronto!', () => {
     console.log("Conectado como " + client.user.tag)
 })
 
-client.login("NDEyNjk0MzAyOTQ3NTQwOTk3.XapGXw.m5vyyLhv_xyCQwsv2LrNaDCbsMY")
+client.login(token).catch(err => console.log(err))
