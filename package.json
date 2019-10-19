@@ -1,5 +1,16 @@
-{
+  {
+    "name": "eljudge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
     "scripts": {
-        "start": "node ."
-    }
-}
+        "start": "node .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "node-env-file": "^0.1.8"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
