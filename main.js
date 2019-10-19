@@ -6,6 +6,6 @@ client.on('ready', () => {
 })
 
 client.login({
-    token: "NDEyNjk0MzAyOTQ3NTQwOTk3.XaqlmA.zv_HIT7trkkE47L0bj9JkY57Ilk"
+    token: "NDEyNjk0MzAyOTQ3NTQwOTk3.Xaqvlg.Ku7lwYL5slOuXteiif93ClNLvME"
 });
 //vou criar um bot e pegar o token pera
