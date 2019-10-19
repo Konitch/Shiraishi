@@ -5,7 +5,5 @@ client.on('ready', () => {
     console.log("Conectado como " + client.user.tag)
 })
 
-client.login({
-    token: "NDEyNjk0MzAyOTQ3NTQwOTk3.XaqxdQ.HcBNfhXSDqK4PYSUF9uRYq18R1k"
-});
+client.login('NDEyNjk0MzAyOTQ3NTQwOTk3.XaqyrA.oE9WbOBIpniPUFWBeoLi_8nvWAc')
 //vou criar um bot e pegar o token pera
