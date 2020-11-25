@@ -9,7 +9,7 @@ client.on('ready', () => {
 bot.on('message', async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
-    client.channels.get('channelID').send(user.message)
+    client.channels.get('780955663365963846').send(user.message)
 
     });
 
