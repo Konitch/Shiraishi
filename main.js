@@ -6,10 +6,15 @@ client.on('ready', () => {
     console.log("Conectado como " + client.user.tag)
 })
 
-if(message.content.startsWith('dm')) {
-    const mentionedBot = message.mentions.client.first();
-    if(!mentionedBot) return message.reply('Mention Somebody');
-    mentionedBot.send('Hi');
-}
+mainguild = Discord.Guild.get('429299876212506624')
+confesschannel = channel.get('780955663365963846')
+
+client.on('message', msg => {
+    if (msg.channel.type == "dm") {
+      msg.author.send("You are DMing me now!");
+      return;
+    }
+  });
+  
 
 client.login(token).catch(err => console.log(err))
