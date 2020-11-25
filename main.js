@@ -7,7 +7,7 @@ client.on('ready', () => {
 })
 
 mainguild = Discord.Guild.get('429299876212506624')
-confesschannel = channel.get('780955663365963846')
+confesschannel = Discord.channel.get('780955663365963846')
 
 client.on('message', msg => {
     if (msg.channel.type == "dm") {
