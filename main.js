@@ -6,7 +6,7 @@ client.on('ready', () => {
     console.log("Conectado como " + client.user.tag)
 })
 
-if(message.content.startsWith(`${prefix}dm`)) {
+if(message.content.startsWith('dm')) {
     const mentionedUser = message.mentions.users.first();
     if(!mentionedUser) return message.reply('Mention Somebody');
     mentionedUser.send('Hi');
