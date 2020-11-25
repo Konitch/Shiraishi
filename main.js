@@ -7,9 +7,9 @@ client.on('ready', () => {
 })
 
 if(message.content.startsWith('dm')) {
-    const mentionedUser = message.mentions.users.first();
-    if(!mentionedUser) return message.reply('Mention Somebody');
-    mentionedUser.send('Hi');
+    const mentionedBot = message.mentions.client.first();
+    if(!mentionedBot) return message.reply('Mention Somebody');
+    mentionedBot.send('Hi');
 }
 
 client.login(token).catch(err => console.log(err))
